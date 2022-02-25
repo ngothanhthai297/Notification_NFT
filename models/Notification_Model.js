@@ -5,7 +5,7 @@ const notification = new Schema({
     address:{ type: String,},
     title:{  type: String,},
     content: { type: String, },
-    status: {type: Number,default: 1},
+    status: {type: Number,default: 0},
     images: { type: String,},
     type: {type: String,},
     created_at: { type: Date, default: Date.now },

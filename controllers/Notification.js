@@ -19,7 +19,7 @@ exports.index = async (req, res, next) => {
                 if (err) return next(err)
                 // res.send(notifications)
                 res.status(200).json({
-                    success: true,
+                    status: true,
                     message: 'Query Success.',
                     data: notifications
                 });

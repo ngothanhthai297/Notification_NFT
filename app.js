@@ -10,11 +10,4 @@ app.use(express.urlencoded({extended: true}));
 app.use(require('cors')());
 app.use('/', router)
 
-app.get('/chat',function(req,res) {
-    res.render("home")
-})
-app.get('/admin',function(req,res) {
-    res.render("home1")
-})
-
 module.exports = app
